@@ -1,0 +1,98 @@
+header {
+  background-color: SteelBlue;
+  color: #fff;
+  height: 60px;
+}
+
+nav {
+  display: flex; /* set the display property to flex */
+  justify-content: space-between; /* align the menu items with equal space */
+  align-items: center; /* vertically center the menu items */
+  height: 100%; /* set the height to 100% of the header */
+}
+
+nav ul {
+  list-style: none; /* remove the default bullet points */
+  margin: 0; /* remove the default margin */
+  padding: 0; /* remove the default padding */
+  display: flex; /* set the display property to flex */
+}
+
+nav li {
+  margin: 0 10px; /* add margin to the left and right of each menu item */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 90px; /* add padding to the top and bottom of each menu item */
+  border-radius: 5px; /* add rounded corners to the menu items */
+  transition: background-color 0.3s ease-in-out; /* add a smooth transition effect */
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+  
+}
+.container_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 60%;
+}
+
+.image_1 {
+  width: 35%;
+} 
+
+footer {
+  border-top: solid 1px;
+  background: steelblue;
+  width: 100%;
+  height: 105px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+article1 {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  font: Arial;
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+     .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 50px;
+      }
+
+      .item {
+        flex-basis: calc(25% - 10px);
+        margin-bottom: 20px;
+      }
+
+      .item img_2 {
+        display: block;
+        max-width: 100%;
+
+	table {
+		font-size: 60px;
+	}
+	
+	body {background-color: coral;}
